@@ -17,6 +17,8 @@ public class CMD_Count_Vowels{
         while(true){
             System.out.println("Please enter your text: ");
             Scanner input = new Scanner(System.in);
+
+            /** reading the next line of text and storing it in a string variable*/
             String input_Text = input.nextLine();
 
             /** passing the lower cased text to vowels_counter method and storing the result in result hashmap variable */
